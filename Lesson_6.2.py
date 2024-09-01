@@ -9,6 +9,6 @@ if str(days)[-1] == '1' and days != 11:
 elif days < 10 or days > 20:
     if str(days)[-1] == '2'  or str(days)[-1] == '3' or str(days)[-1] == '4':
         day = 'дні'
-    else:
-        day = 'днів'
+else:
+    day = 'днів'
 print(days,' ', day, ' , ', hours, ':', minutes, ':', seconds, sep = '')
